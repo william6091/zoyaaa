@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Important</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #f5f5f5;
+        }
+        .box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        #msg {
+            display: none;
+            margin-top: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Important Notice</h2>
+        <p>Success comes to those who carefully read every single word written in front of them with full attention and focus.</p>
+        
+        <button onclick="document.getElementById('msg').style.display='block'">Click Here</button>
+        
+        <div id="msg">
+            Itni gour se kiya parh raha hai gand dega kia bharwe
+        </div>
+    </div>
+</body>
+</html>
